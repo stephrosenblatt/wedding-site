@@ -24,6 +24,13 @@ a:hover,
 a:active {
   color: #fa6563;
 }
+p a:link,
+p a:visited {
+  border-bottom: 1px dotted #280900;
+}
+p a:hover {
+  border-bottom: 1px dotted #fa6563;
+}
 .nav {
   /* 
   background-color: #280900;
