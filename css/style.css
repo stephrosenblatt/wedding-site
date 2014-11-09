@@ -33,7 +33,7 @@ p a:hover {
 }
 .nav {
   background:url(../images/subtle_white_mini_waves.png) 0 0 repeat;
-  border-bottom: 10px solid #280900;
+  border-bottom: 2px solid #fff;
   padding-bottom: 20px;
   /* 
   background-color: #280900;
@@ -83,6 +83,7 @@ p a:hover {
   color: #fa6563;
 }
 .hero {
+  /*border-top: 1px solid #280900;*/
   box-shadow: inset 0 0 8px #333;
   height: 400px;
   margin: 0;
