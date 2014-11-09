@@ -32,6 +32,9 @@ p a:hover {
   border-bottom: 1px dotted #fa6563;
 }
 .nav {
+  background:url(../images/subtle_white_mini_waves.png) 0 0 repeat;
+  border-bottom: 10px solid #280900;
+  padding-bottom: 20px;
   /* 
   background-color: #280900;
   border-bottom: 2px solid #b68374;
@@ -81,8 +84,8 @@ p a:hover {
 }
 .hero {
   box-shadow: inset 0 0 8px #333;
-  height: 500px;
-  margin: 20px 0 0;
+  height: 400px;
+  margin: 0;
   width: 100%;
 }
 .hero.home {
@@ -122,10 +125,16 @@ p a:hover {
 }
 .content {
   background-color: #f0f0f0;
-  padding: 30px 0;
+  border-top: 1px solid #280900;
 }
 .content p {
   color: #666;
+}
+.content.inside h1,
+.content.inside h2,
+.content.inside h3 {
+  font-family: "Playfair Display", Georgia, Garamond, serif;
+  margin: 30px 0 20px;
 }
 /* home */
 .content.home h3 {
@@ -147,11 +156,41 @@ p a:hover {
   border-top: 1px dashed #fff;
   padding-top: 20px;
 }
+.content.itinerary h2 {
+  color: #280900;
+  margin: 15px 0 5px;
+}
+.content.itinerary h3 {
+  font-family: "Roboto Condensed", "Helvetica", "Arial", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+.content.getting-here h4 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .footer {
   background-color: #fa6563;
   color: #fff;
   line-height: 150%;
-  padding: 10px;
+  padding: 15px 0 50px;
   text-align: center;
   width: 100%;
 }
@@ -172,3 +211,48 @@ p a:hover {
 .align-center {
   text-align: center;
 }
+.info-panel {
+  background:url(../images/subtle_white_mini_waves_light.png) 0 0 repeat #fff;
+  border-top: 1px solid #fffff0;
+  border-bottom: 1px solid #fff;
+  box-shadow:inset 0 0 15px #e0e0e0;
+  padding: 30px 0;
+}
+/** Getting Here **/
+.info-panel.alt {
+  background:url(../images/subtle_white_mini_waves.png) 0 0 repeat #fff;
+}
+.info-panel .circle {
+  background-color: #fff;
+  border-radius: 45px;
+  box-shadow:inset 0 0 5px #999;
+  height: 90px;
+  margin: 30px auto 0;
+  position: relative;
+  width: 90px;
+}
+.info-panel .circle img {
+  margin: 20px 0 0;
+}
+.info-panel  .transportation li {
+  color: #666;
+  font-family: Georgia, Garamond, serif;
+  font-size: 16px;
+  line-height: 120%;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 18px;
+  list-style-position: inside;
+  position: relative;
+}
+.info-panel  .transportation li .trans {
+  display: block;
+  margin-right: 10px;
+  position: absolute;
+  left: -40px;
+}
+p > b, li > b {
+  color: #280900;
+}
+
+
