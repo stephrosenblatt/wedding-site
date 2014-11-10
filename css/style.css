@@ -157,6 +157,16 @@ p a:hover {
   border-top: 1px dashed #fff;
   padding-top: 20px;
 }
+.content.our-story h3 {
+  border-bottom: 1px dashed #280900;
+  color: #280900;
+  font-size: 22px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+.content.our-story h3 + p {
+  border-top: 1px dashed #fff;
+}
 .content.itinerary h2 {
   color: #280900;
   margin: 15px 0 5px;
